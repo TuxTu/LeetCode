@@ -1,4 +1,5 @@
 #92ms,13.9MB
+import numpy
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1:
