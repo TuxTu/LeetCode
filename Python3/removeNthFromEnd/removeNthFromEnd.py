@@ -25,7 +25,7 @@ class Solution:
         
         return lazyHead.next
 
-#48ms,13.8MB
+#48ms,13.8MB,double point
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         lazyHead = ListNode(0)
