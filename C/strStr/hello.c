@@ -6,7 +6,8 @@ int main(){
 	char a[4];
 	int length;
 	s = "abcdefg";
-	strncpy(a, s + 1, 3);
+	strncpy(a, s + 1, 1);
+	printf("%s\n", a);
 	strncpy(a, s + 2, 3);
 	if (strcmp(a, "bcd") == 0){
 		printf("hello,world!\n");
